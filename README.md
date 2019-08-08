@@ -4,3 +4,6 @@
 업무 분담:
 별찬-login.html, write.html
 민규-index.html, read.html
+
+추가 사항
+1. login.html에서 submit 버튼 추가 => index.html로 이동
