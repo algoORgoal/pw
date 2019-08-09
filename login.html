@@ -37,21 +37,34 @@
     </div>
     <!--login-->
     <form action="#">
-        <div class="input-group my-2">
-            <div class="input-group-prepend">
-                <span class="input-group-text material-icons">
-                    account_circle
-                </span>
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <div class="input-group my-2">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text material-icons">
+                            account_circle
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" id="username" placeholder="Username">
+                </div>
             </div>
-            <input type="text" class="form-control" id="username" placeholder="Username">
         </div>
-        <div class="input-group my-2">
-            <div class="input-group-prepend">
-                <span class="input-group-text material-icons">
-                    vpn_key
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <div class="input-group my-2">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text material-icons">
+                            vpn_key
+                    </div>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
             </div>
-            <input type="password" class="form-control" id="password" placeholder="Password">
         </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary mx-3">Sign in</button>
+            <button type="submit" class="btn btn-success mx-3">Sign up</button>
+        </div>
+
 
 
 
