@@ -12,21 +12,23 @@
 
     <h1>make random sentence</h1>
 
+    <script>
+        var S = ["달", "그림자", "닭", "왕"];
+        var S조사 = ["이/가", "께서"];
+        var O = ["너", "우리", "그 녀석", "나"];
+        var O조사 = ["을/를"];
+        var 서술어 = ["때린다", "돌린다", "그린다", "잡는다"];
+    </script>
     <span>
         <script>
-            var S = ["달", "그림자", "닭", "왕"];
             document.write(S[Math.floor(Math.random() * 4)]);
-            var S조사 = ["이/가", "께서"];
             document.write(S조사[Math.floor(Math.random() * 2)]);
         </script>
         <script>
-            var O = ["너", "우리", "그 녀석", "나"];
             document.write(O[Math.floor(Math.random() * 4)]);
-            var O조사 = ["을/를"];
             document.write(O조사[Math.floor(Math.random() * 1)]);
         </script>
         <script>
-            var 서술어 = ["때린다", "돌린다", "그린다", "잡는다"];
             document.write(서술어[Math.floor(Math.random() * 4)]);
         </script>.
     </span>
