@@ -21,15 +21,18 @@
     </script>
     <span>
         <script>
-            document.write(S[Math.floor(Math.random() * 4)]);
-            document.write(S조사[Math.floor(Math.random() * 2)]);
+            function write(thing) {
+                document.write(thing);
+            }
+            write(S[Math.floor(Math.random() * 4)]);
+            write(S조사[Math.floor(Math.random() * 2)]);
         </script>
         <script>
-            document.write(O[Math.floor(Math.random() * 4)]);
-            document.write(O조사[Math.floor(Math.random() * 1)]);
+            write(O[Math.floor(Math.random() * 4)]);
+            write(O조사[Math.floor(Math.random() * 1)]);
         </script>
         <script>
-            document.write(서술어[Math.floor(Math.random() * 4)]);
+            write(서술어[Math.floor(Math.random() * 4)]);
         </script>.
     </span>
 
