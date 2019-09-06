@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>what do you want?</title>
-</head>
-<style>
-    h1 {
+h1 {
         text-align: center;
         font-size: 36pt;
     }
@@ -52,20 +42,3 @@
         font-size: 64px;
         margin: 60px
     }
-</style>
-
-<body>
-    <header>
-        <h1>Hello <u>username</u>
-        </h1>
-        <h2>what do you want?</h2>
-    </header>
-    <nav>
-        <div id="grid">
-            <a href="write.html"><button type="button" name="button" class="button1">write</button></a>
-            <a href="read.html"><button type="button" name="button" class="button2">read</button></a>
-        </div>
-    </nav>
-</body>
-
-</html>
